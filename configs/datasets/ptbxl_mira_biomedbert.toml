@@ -45,7 +45,7 @@ sampling_rate = 100.0   # must match datasets/ptbxl.py sampling_rate
 # Point repo_path at your local clone of https://github.com/microsoft/MIRA
 # so that `import MIRA.models.modeling_mira` succeeds. Adjust import_module to
 # match the actual package folder casing in your clone.
-repo_path = "/path/to/MIRA"
+repo_path = "/lambda/nfs/Kiana2/microsoft-MIRA"
 import_module = "MIRA.models.modeling_mira"
 config_module = "MIRA.models.configuration_mira"
 
